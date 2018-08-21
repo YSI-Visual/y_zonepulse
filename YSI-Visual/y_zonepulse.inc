@@ -104,16 +104,16 @@ Optional plugins:
 	#tryinclude "y_zonepulse\y_zonepulse_entry"
 #endif
 #if !defined _INC_y_zonepulse
-	#tryinclude "YSI_Visual\y_zonepulse\y_zonepulse_entry"
+	#tryinclude "YSI-Visual\y_zonepulse\y_zonepulse_entry"
 #endif
 #if !defined _INC_y_zonepulse
-	#tryinclude "YSI\YSI_Visual\y_zonepulse\y_zonepulse_entry"
+	#tryinclude "YSI\YSI-Visual\y_zonepulse\y_zonepulse_entry"
 #endif
 #if !defined _INC_y_zonepulse
-	#tryinclude <YSI_Visual\y_zonepulse\y_zonepulse_entry>
+	#tryinclude <YSI-Visual\y_zonepulse\y_zonepulse_entry>
 #endif
 #if !defined _INC_y_zonepulse
-	#tryinclude <YSI\YSI_Visual\y_zonepulse\y_zonepulse_entry>
+	#tryinclude <YSI\YSI-Visual\y_zonepulse\y_zonepulse_entry>
 #endif
 #if !defined _INC_y_zonepulse
 	#error Could not find y_zonepulse
